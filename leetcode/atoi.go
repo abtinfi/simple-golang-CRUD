@@ -1,5 +1,6 @@
+// https://leetcode.com/problems/string-to-integer-atoi/
 func myAtoi(s string) int {
-    res := strings.TrimSpace(s)
+	res := strings.TrimSpace(s)
 	if len(res) == 0 {
 		return 0
 	}
